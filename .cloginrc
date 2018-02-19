@@ -1,0 +1,35 @@
+add sshcmd 97.91.159.108 {ssh\ -1}
+add user 97.91.159.108 ppmrtr
+add password 97.91.159.108 F3rengi F3rengi
+add password asm-asa-int rancid rancid
+add password tsg-asa-ext rancid rancid
+add password meyercap01 Ranc1D cisco
+add password asmcap1 Ranc1D Ranc1D
+add sshcmd asmcap1 {ssh\ -1}
+#add method asmcap1 telnet
+add method asm-router01 telnet
+add password asm-router01 Ranc1D Ranc1D
+add password pss-asa-ext Ranc1d Ranc1d
+add method pss-asa-int telnet
+add password pss-asa-int Ranc1d Ranc1d
+add method pss-ap01 telnet
+add password pss-ap01 Ranc1D Ranc1D
+add method pss-ap02 telnet
+add password pss-ap02 Ranc1D Ranc1D
+add method pss-switch01 telnet
+add password falkoff-asa-ext Ranc1D Ranc1D
+add password falkoff-asa-int rancid Ranc1D
+add password pss-switch01 rancid infotech
+add password wschier-asa Ranc1d Ranc1d
+add password asm-router01 Ranc1D gahXaif6
+add method meyercap01 telnet
+add sshcmd wschier-asa {ssh\ -1}
+add sshcmd 97.91.191.97 {ssh\ -1}
+add autoenable 192.168.220.8
+add method 192.168.220.9 telnet
+add password 10.150.1.3 telnet
+add sshcmd 192.168.220.254 {ssh\ -1}
+add password tsg-asa-int rancid rancid
+add user * rancid
+add password * rancid
+add method * ssh
